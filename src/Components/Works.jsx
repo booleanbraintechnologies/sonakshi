@@ -61,7 +61,7 @@ export default function Works() {
                 {/* FEATURED <br />
                 WORK */}
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-6 gap-10 px-5 md:px-10 ">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 md:gap-10 gap-2 px-5 md:px-10 ">
                 <Link to={'work1'} className="w-full md:h-[70vh] h-[50vh] bg-gray-200 font-bold work_card" style={{
                     backgroundImage: 'url(' + work1 + ')',
                     backgroundSize: 'cover',

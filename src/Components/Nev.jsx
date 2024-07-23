@@ -30,7 +30,7 @@ export default function Nev() {
     }, []);
 
     return (
-        <nav className="bg-black container mx-auto p-4 flex justify-between relative h-[10vh]">
+        <nav className="bg-black container mx-auto p-4 flex justify-between h-[10vh] sticky top-0 z-50">
             <div className={`text-gray-400 flex items-center font-bold ${!nevstate ? 'opacity-100' : 'opacity-0'}`}>
                 Time : {formatTime(time)}
             </div>
@@ -42,9 +42,9 @@ export default function Nev() {
                 </div>
             </div>
             <div className={`absolute flex ${nevstate ? "top-full" : "-top-[60vh]"} left-0 flex-col bg-black w-full justify-evenly items-center h-[60vh] duration-100 md:text-5xl text-3xl text-gray-100 p-10 text-center`}>
-                <a href="#home" className="nav-link hover:text-black w-full py-3 font-bold">Home</a>
-                <a href="#work" className="nav-link hover:text-black w-full py-3 font-bold">Featured works</a>
-                <a href="#contact" className="nav-link hover:text-black w-full py-3 font-bold">Contact Us</a>
+                <a href="#home" className="nav-link hover:text-black w-full py-3 font-bold" onClick={()=>setNevState(!nevstate)}>Home</a>
+                <a href="#work" className="nav-link hover:text-black w-full py-3 font-bold" onClick={()=>setNevState(!nevstate)}>Featured works</a>
+                <a href="#contact" className="nav-link hover:text-black w-full py-3 font-bold" onClick={()=>setNevState(!nevstate)}>Contact Us</a>
 
             </div>
         </nav>

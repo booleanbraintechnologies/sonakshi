@@ -9,8 +9,9 @@
   font-weight: 500 !important;
 }
 body{
-  overflow-x: hidden;
-  background-color: rgb(17, 24, 39)
+  overflow-x: hidden !important;
+  width: 100vw;
+  background-color: rgb(17, 24, 39);
 }
 *::-webkit-scrollbar{
   display: none;
@@ -150,3 +151,25 @@ body{
   width: 100%;
 }
 
+
+.top-cover {
+  display: none;
+}
+
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+  .top-cover {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000000;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+  }
+}

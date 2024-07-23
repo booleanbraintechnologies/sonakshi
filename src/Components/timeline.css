@@ -12,7 +12,8 @@
     align-items: center;
     position: relative;
     /* padding-left: 0vw; */
-    margin: 0 30vw;
+    /* margin: 0 auto; */
+    /* margin-right: 15px; */
 }
 
 .timeline::before {
@@ -71,4 +72,30 @@
 .timeline_description1{
     /* background-color: pink; */
     align-self: self-end;
+}
+
+
+/* Custom scrollbar styles */
+.scrollbar-dark::-webkit-scrollbar {
+    display: block !important;
+    border-radius: 1000px;
+}
+
+.scrollbar-dark::-webkit-scrollbar {
+    height: 12px; /* Height of horizontal scrollbar */
+    border-radius: 1000px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Track color */
+    border-radius: 1000px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb {
+    background: #333; /* Scrollbar thumb color */
+    border-radius: 6px; /* Round corners */
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
 }

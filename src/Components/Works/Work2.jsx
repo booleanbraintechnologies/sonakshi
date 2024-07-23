@@ -7,10 +7,10 @@ import img4 from '../../Assets/works/resume_page-0009.jpg';
 export default function Work2() {
   return (
     <div>
-      <img src={img1} className='w-full'/>
-      <img src={img2} className='w-full'/>
-      <img src={img3} className='w-full'/>
-      <img src={img4} className='w-full'/>
+      <img src={img1} className='w-screen'/>
+      <img src={img2} className='w-screen'/>
+      <img src={img3} className='w-screen'/>
+      <img src={img4} className='w-screen'/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ export default function Hero() {
                 <div className='w-[80%] h-[60vh] mt-[10vh] p-10 font-bold text-3xl md:text-5xl'>
                     Hi, I'm <span className='text-[#DC00FF]'>AMULURU SONAKSHI</span><br /><br />
                     <span className='font-normal text-lg md:text-2xl leading-none'>
-                        A passionate architecture transforming <br />
+                        A passionate architect transforming <br />
                         ideas into reality
                     </span>
                 </div>

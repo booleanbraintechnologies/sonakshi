@@ -38,7 +38,7 @@ export default function Arcitecturalintrest() {
     });
     return (
         <div className='container mx-auto p-4 pt-0 relative'>
-            <div className='text-3xl md:text-5xl font-bold text-gray-300 p-5 pt-0 w-full flex flex-col-reverse md:flex-row'>
+            <div className='text-3xl md:text-5xl font-bold text-gray-300 p-5 pt-0 w-full flex flex-col-reverse lg:flex-row'>
                 <div className='w-full md:p-10 h-full md:pt-40 pt-20 card_container_parent_a'>
                     <div className='flex gap-5 card_container_a'>
                         <div className='w-[40%]'>
@@ -73,7 +73,7 @@ export default function Arcitecturalintrest() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full sticky top-10 h-fit md:bg-transparent bg-black z-10 p-8 arcitectural md:text-right text-left'>
+                <div className='w-full sticky top-10 h-fit lg:bg-transparent bg-black z-10 p-8 arcitectural lg:text-right text-left'>
                     <span>S</span>
                     <span>E</span>
                     <span>R</span>

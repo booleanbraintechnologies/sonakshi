@@ -47,8 +47,8 @@ export default function Addons() {
     });
     return (
         <div className='container mx-auto p-4 pt-0 relative'>
-            <div className='text-3xl md:text-5xl font-bold text-gray-300 p-5 pt-0 w-full flex flex-col md:flex-row'>
-                <div className='w-full sticky top-10 h-fit md:bg-transparent bg-black z-10 p-8 addon'>
+            <div className='text-3xl md:text-5xl font-bold text-gray-300 p-5 pt-0 w-full flex flex-col lg:flex-row'>
+                <div className='w-full sticky top-10 h-fit lg:bg-transparent bg-black z-10 p-8 addon'>
                     <span>S</span>
                     <span>K</span>
                     <span>I</span>
